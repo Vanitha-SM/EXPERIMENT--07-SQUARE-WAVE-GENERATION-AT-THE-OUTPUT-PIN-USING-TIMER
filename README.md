@@ -22,7 +22,7 @@ STM32 Timers – PWM Output Channels
 
 Each Capture/Compare channel is built around a capture/compare register (including a shadow register), an input stage for capture (with a digital filter, multiplexing, and Prescaler) and an output stage (with comparator and output control). The output stage generates an intermediate waveform which is then used for reference: OCxRef (active high). The polarity acts at the end of the chain.
 
-<img src=https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/87457b57-4311-440b-8cbe-a9d78db4335a width=450 height=450>
+<img src=https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/87457b57-4311-440b-8cbe-a9d78db4335a width=450 height=225>
 
 STM32 Timers In PWM Mode
 
@@ -41,13 +41,13 @@ The PWM period (1/FPWM) is defined by the following parameters: ARR value, the P
 
 STM32 PWM Frequency Formula - STM32 PWM Frequency Equation
 
-<img src=https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/aca8a20e-9b99-40c1-bada-f31accaa2ae9 width=450 height=450>
+<img src=https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/aca8a20e-9b99-40c1-bada-f31accaa2ae9 width=450 height=225>
 
 STM32 PWM Duty Cycle
 
 In normal settings, assuming you’re using the timer module in PWM mode and generating PWM signal in edge-aligned mode up-counting configuration. The duty cycle percentage is controlled by changing the value of the CCRx register. And the duty cycle equals (CCRx/ARR) [%].
 
-<img src=https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/58ce0807-331e-49f7-bc8d-373f82592a92 width=450 height=450>
+<img src=https://github.com/vasanthkumarch/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/36288975/58ce0807-331e-49f7-bc8d-373f82592a92 width=450 height=225>
 
 
 
@@ -179,16 +179,15 @@ void Error_Handler(void)
 ```
 ### Output screen shots of proteus  :
  #### For Pulse at 50%:
- ![image](https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/1ab394f6-da53-43fe-9d66-22c4987f36e7)
+ <img src=https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/1ab394f6-da53-43fe-9d66-22c4987f36e7 height=450 width=450>
 
  #### For Pulse at 60%:
-![image](https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/002a62b1-eca8-4ddf-9c74-cd20ab1da159)
+<img src=https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/002a62b1-eca8-4ddf-9c74-cd20ab1da159 height=450 width=450>
 #### For Pulse at 70%:
-![image](https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/a185bb96-d0aa-4029-9112-68a1de516099)
-
+<img src=https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/a185bb96-d0aa-4029-9112-68a1de516099 width=450 height=450>
  
  ### CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- ![image](https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/29033852-efcf-41a8-bb7f-41026d4306fd)
+ <img src=https://github.com/Vanitha-SM/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119557985/29033852-efcf-41a8-bb7f-41026d4306fd width =450 height=450>
 
 
 ### DUTY CYCLE AND FREQUENCY CALCULATION :
